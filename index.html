@@ -420,7 +420,7 @@ section#work{border-top:0}
     <div>
       <div class="status"><i></i>Open to OJT / internship</div>
       <h1><span class="line"><span class="w">Hi,</span> <span class="w">I'm</span> <span class="w">Lemuel.</span></span><span class="line soft"><span class="w">I</span> <span class="w">build</span> <span class="rot" aria-live="polite"><span id="role">web systems</span><i class="caret"></i></span></span></h1>
-      <p class="lead">BSIT student and full-stack developer. I work across the stack, from the database and API to the screens people use, with C#, Python, TypeScript and Java.</p>
+      <p class="lead">BSIT student and full-stack developer. I work across the stack, from the database and API to the screens people use, with C#, Python, JavaScript and Java.</p>
       <div class="cta">
         <a class="btn magnetic" href="#work">View my work</a>
         <a class="btn ghost" href="Lemuel-Alonso-Resume.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>View resume</a>
@@ -461,11 +461,11 @@ section#work{border-top:0}
           <h3>Fresh from the farm,<br><span>straight to your table.</span></h3>
           <p>A direct marketplace where local vegetable farmers sell to households, restaurants and vendors, without losing most of their earnings to middlemen.</p>
           <div class="flow" aria-label="How it works">
-            <div class="node"><span>🥬</span>Farmer lists produce</div>
+            <div class="node"><span>🌱</span>Farmer lists produce</div>
             <div class="wire"><i></i></div>
-            <div class="node"><span>🧺</span>Buyer orders online</div>
+            <div class="node"><span>🛒</span>Buyer orders online</div>
             <div class="wire"><i></i></div>
-            <div class="node"><span>🛵</span>Fresh delivery</div>
+            <div class="node"><span>🚚</span>Fresh delivery</div>
           </div>
         </div>
 
@@ -587,10 +587,10 @@ const OTHER = [
   ['Express Lab 3','Small Express API for listing and adding items.',['Node.js','Express'],'https://github.com/alonsolemuel/express-lab3-activity'],
 ];
 const SKILLS = {
-  'Languages':['C#','Python','TypeScript','JavaScript','Java','SQL','HTML & CSS'],
-  'Frameworks':['ASP.NET Core MVC','Flask','Node.js / Express','Angular'],
-  'Databases':['MySQL','SQLite','Firebase','Entity Framework','Sequelize'],
-  'Tools':['Git & GitHub','Visual Studio','VS Code','Android Studio','NetBeans','Swagger'],
+  'Languages':['C#','Python','JavaScript','Java','SQL','HTML & CSS'],
+  'Frameworks':['ASP.NET Core MVC','Flask'],
+  'Databases':['MySQL','SQLite','Firebase','Entity Framework'],
+  'Tools':['Git & GitHub','Visual Studio','VS Code','Android Studio'],
 };
 /* ================================== */
 
@@ -679,7 +679,7 @@ document.querySelectorAll('.others .other').forEach((el,i)=>el.style.setProperty
 document.querySelectorAll('.skill-col').forEach(col=>col.querySelectorAll('li').forEach((li,i)=>li.style.setProperty('--i',i)));
 
 // marquee
-(()=>{const words=['C#','ASP.NET Core','Python','Flask','TypeScript','Node.js','Angular','Java','MySQL','SQLite','Firebase','Git']; 
+(()=>{const words=['C#','ASP.NET Core','Python','Flask','JavaScript','Java','MySQL','SQLite','Firebase','Git']; 
   const html=words.map(w=>`<span>${w}</span>`).join(''); document.getElementById('track').innerHTML=html+html;})();
 
 // count-up stats
